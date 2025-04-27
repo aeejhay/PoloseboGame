@@ -1,25 +1,49 @@
-📌 Overview
-The Palosebo Voice Game is a browser-based mini-game inspired by the traditional Filipino festival game Palosebo, where participants climb a greased bamboo pole to capture a flag at the top. This modern reimagining brings the cultural classic to life through voice control — players shout or make noise to help the character climb.
+# Palosebo Game
 
-🧠 Concept & Gameplay
-Players control a character climbing a tall bamboo pole by using their voice. The louder they shout, the faster the character climbs. The goal is to reach the red flag at the top — just like in real Palosebo! The game uses the Web Speech API to detect input, offering a fun, engaging, and hands-free experience.
+A web-based version of the traditional Filipino game Palosebo, where players climb a bamboo pole by making sounds.
 
-🎨 Design
-The visual style is bright and playful, with Filipino barrio-inspired elements:
+## Features
 
-Bamboo pole and red flag – the main goal of the game
+- Voice-controlled gameplay using the Web Speech API
+- Responsive design that works on both desktop and mobile devices
+- Filipino-inspired visual design with bamboo textures
+- Confetti animation on winning
+- Simple and intuitive controls
+- Timer to track your climbing speed
+- Best time tracking with local storage
+- Realistic falling mechanics when no sound is detected
 
-Festive background – blue skies, green hills, traditional huts, and colorful pennant flags to reflect a fiesta vibe
+## How to Play
 
-Cartoon character – a determined boy climbing with every shout
+1. Open the game in a modern web browser
+2. Click the "Start Game" button
+3. Allow microphone access when prompted
+4. Make sounds (clap, shout, or whistle) to make the character climb
+5. The louder the sound, the faster the character climbs
+6. If you stop making sounds, the character will slide down
+7. Reach the red flag at the top to win!
+8. Try to beat your best time!
 
-🔊 Voice Interaction
-By integrating the Web Speech API, this game explores how traditional mechanics can be translated into new forms of interaction — creating a fun, noisy, and nostalgic twist.
+## Technical Requirements
 
-🌐 Goals
-Celebrate and preserve Filipino culture through digital play
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
+- Microphone access
+- Internet connection (for loading the confetti animation)
 
-Introduce children and international players to traditional games
+## Setup
 
-Experiment with voice-based gameplay mechanics for casual games
+1. Clone this repository
+2. Open `index.html` in your web browser
+3. No additional setup required!
 
+## Browser Compatibility
+
+The game uses modern web APIs and should work in:
+- Chrome 49+
+- Firefox 47+
+- Safari 11+
+- Edge 79+
+
+## Note
+
+For the best experience, play in a quiet environment where you can make sounds without disturbing others. The game works best with clear, loud sounds rather than background noise. 

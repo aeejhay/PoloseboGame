@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palosebo Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Palosebo</h1>
+        <div class="game-area">
+            <div class="bamboo-pole">
+                <div class="flag"></div>
+                <div class="player" id="player"></div>
+            </div>
+        </div>
+        <div class="instructions">
+            <p>Shout to climb! The louder you shout, the faster you climb!</p>
+            <p>Isigaw mo sa hangin tumindig at magsilbing, liwanag sa dilim!</p>
+            <button id="startButton">Start Game</button>
+        </div>
+        <div id="winMessage" class="win-message hidden">
+            <h2>Congratulations!</h2>
+            <p>You reached the flag!</p>
+            <button id="restartButton">Play Again</button>
+        </div>
+    </div>
+    <footer>
+        <p>Developed by <a href="https://adrianjandongan.me/" target="_blank">[AJ.Mole]</a> AJEE IT SOLUTIONS</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="game.js"></script>
+
+</body>
+</html> 
